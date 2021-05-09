@@ -36,6 +36,7 @@ namespace TestNinja.UnitTests
         }
         
         [Test]
+        [Ignore("Below test is more generic")]
         public void Max_ArgumentsAreEqual_ReturnTheSameArgument()
         {
             var result = _math.Max(1, 1);
